@@ -1,0 +1,16 @@
+@import "compass/css3";
+
+*, *:before, *:after {box-sizing:  border-box !important;}
+
+.portrow {
+
+	padding-top: 50px;
+ -webkit-column-width: 13em;
+  
+}
+#map{
+	
+	 width: 800px;
+        height: 400px;
+}
+
