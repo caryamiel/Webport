@@ -3,12 +3,11 @@
   "version": "0.0.0",
   "description": "[Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) is a responsive, one page portfolio theme for [Bootstrap](http://getbootstrap.com/) created by [Start Bootstrap](http://startbootstrap.com/). The theme features multiple content sections with an off canvas navigation menu.",
   "main": "server.js",
-  "dependencies": {
-    "connect": "~3.4.1",
-    "express": "~4.13.4",
-    "s": "~0.1.1",
-    "serve-static": "~1.10.2"
-  },
+   "dependencies" : {
+    "mime" : "~1.2.7",
+    "connect" : "3.4.1",
+    "serveStatic" : "1.10.2",
+  }
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,11 +22,7 @@
   "bugs": {
     "url": "https://github.com/caryamiel/Webport/issues"
   },
-   "dependencies" : {
-    "mime" : "~1.2.7",
-    "connect" : "3.4.1",
-    "serveStatic" : "1.10.2",
-  }
+  
    "engines": {
     "node": "0.10.25"
   }
