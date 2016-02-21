@@ -28,4 +28,7 @@
     "connect" : "3.4.1",
     "serveStatic" : "1.10.2",
   },
+   "engines": {
+    "node": "0.10.25"
+  }
 }
